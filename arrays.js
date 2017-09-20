@@ -1,12 +1,12 @@
 var chocolateBars = [ "snickers", "hundred grand", "kitkat", "skittles"];
+var superheroines = [ "catwoman", "she-hulk", "mystique" ];
+superheroines.push("wonder woman");
 
 function addElementToBeginningOfArray() {
-  const chocolateBars = [ "snickers", "hundred grand", "kitkat", "skittles"]
-  return moreChocolateBars = ["foo", ...chocolateBars]
+  var chocolateBars = [ "snickers", "hundred grand", "kitkat", "skittles"];
+  chocolateBars.unshift("reeses")
 }
 
 function destructivelyAddElementToBeginningOfArray() {
-  var chocolateBars = [ "snickers", "hundred grand", "kitkat", "skittles"];
-  chocolateBars.unshift("foo")
-  return chocolateBars
+  var
 }
